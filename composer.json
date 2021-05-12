@@ -1,0 +1,27 @@
+{
+    "name": "sam/tell-a-joke",
+    "description": "Enjoy some chuck norris jokes throughout your day as a dev :).",
+    "require": {
+        "guzzlehttp/psr7": "2.0.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel",
+            "email": "torressam333@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Sam\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sam\\Commands\\JokeServiceProvider"
+            ]
+        }
+    }
+}
