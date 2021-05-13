@@ -2,7 +2,7 @@
     "name": "sam/tell-a-joke",
     "description": "Enjoy some chuck norris jokes throughout your day as a dev :).",
     "require": {
-        "guzzlehttp/psr7": "2.0.x-dev"
+        "guzzlehttp/guzzle": "7.4.x-dev"
     },
     "license": "MIT",
     "authors": [
